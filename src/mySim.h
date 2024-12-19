@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <functional>
 using namespace std;   
 
 #ifndef MYSIM_H
@@ -27,19 +28,23 @@ class Flow{
         double value;
         System* source;
         System* target;
-        vector<System*> variables;
+        function<double(double, double)> equation; // ! add to UML
     public:
         Flow();
-        Flow(const Flow &other){};
+        Flow(const Flow &other);
+
         void setTarget(System* target);
         void setSource(System* source);
-        void associateVariable(System* system);
-        void disassociateVariable(System* system);
+        void associateVariable(System* system); // ! remove from UML
+        void disassociateVariable(System* system); // ! remove from UML
         void setValue(double value);
+        void setEquation(function<double(double, double)> equation); // ! add to UML
         double getValue();
         string getId();
         System* getSource();
         System* getTarget();
+
+        void execute(); // ! add to UML
 
         Flow& operator=(const Flow &other);
 };
@@ -65,8 +70,6 @@ class Simulation{
 
         Simulation& operator=(const Simulation &other);
 };
-
-
 
 
 

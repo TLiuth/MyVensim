@@ -1,13 +1,15 @@
-#include <mySim.h>
+#include "mySim.h"
 #ifndef MYSIM_CPP
 #define MYSIM_CPP
 
+// ! Class Flow 
 
 Flow::Flow(){
     this->id = "";
     this->value = 0;
     this->source = nullptr;
     this->target = nullptr;
+    this->equation = nullptr;
 }
 
 Flow::Flow(const Flow &other){
@@ -25,22 +27,14 @@ void Flow::setSource(System* source){
     this->source = source;
 }
 
-void Flow::associateVariable(System* system){
-    this->variables.push_back(system);
-}
-
-void Flow::disassociateVariable(System* system){
-    for(int i = 0; i < this->variables.size(); i++){
-        if(this->variables[i] == system){
-            this->variables.erase(this->variables.begin() + i);
-            break;
-        }
-    }
-}
 
 void Flow::setValue(double value){
     this->value = value;
-}  
+} 
+
+void Flow::setEquation(function<double(double, double)> equation){
+    this->equation = equation;
+}
 
 
 double Flow::getValue(){
@@ -59,6 +53,19 @@ System* Flow::getTarget(){
     return this->target;
 }
 
+
+void Flow::execute(){
+    if(this->equation != nullptr){
+        cout << "Source: " << this->source->getValue() << "    Target: " << this->target->getValue() << endl;
+        double result = this->equation(this->source->getValue(), this->target->getValue());
+        this->target->setValue(this->target->getValue() + result);
+        this->source->setValue(this->source->getValue() - result);
+    }else{
+        this->target->setValue(this->target->getValue() + this->value);
+        this->source->setValue(this->source->getValue() - this->value);
+    }
+}
+
 Flow& Flow::operator=(const Flow &other){
 
     if(this == &other){
@@ -72,6 +79,7 @@ Flow& Flow::operator=(const Flow &other){
     return *this;
 }
 
+// ! Class System
 
 System::System(){
     this->name = "";
@@ -108,6 +116,9 @@ System& System::operator=(const System &other){
     this->value = other.value;
     return *this;
 }
+
+
+// ! Class Simulation
 
 Simulation::Simulation(){
     this->totalSteps = 0;
@@ -150,14 +161,15 @@ vector<System*> Simulation::getSystems(){
 }
 
 void Simulation::run(){
+    cout << "Running simulation" << endl;
     for(int i = 0; i < this->totalSteps; i++){
-        for(int j = 0; j < this->flows.size(); j++){
-            this->flows[j]->getTarget()->setValue(this->flows[j]->getTarget()->getValue() + this->flows[j]->getValue());
-            this->flows[j]->getSource()->setValue(this->flows[j]->getSource()->getValue() - this->flows[j]->getValue());
+        cout << "Running Flow " << i << endl;
+        for(auto flow : flows){
+            flow->execute();
         }
     }
+    cout << "Simulation finished" << endl << endl;
 }
-
 
 
 
