@@ -1,0 +1,9 @@
+<map id="Model::flowsEnd" name="Model::flowsEnd">
+<area shape="rect" id="node1" title="Returns an iterator to the end of the flows." alt="" coords="511,31,639,57"/>
+<area shape="rect" id="node2" href="$classModel.html#a7b41df04211b99c65d5255c09ddc8e71" title="Removes a flow from the model." alt="" coords="343,5,463,32"/>
+<area shape="rect" id="node3" href="$classModel.html#a3f49bc07b68b59f38ff79f3b66d122a1" title="Runs the model for a number of iterations." alt="" coords="357,56,448,83"/>
+<area shape="rect" id="node4" href="$functional__tests_8cpp.html#a943dfe0c597a01c9760c140715fed527" title="Functional test for a model with multiple flows and systems." alt="" coords="118,5,285,32"/>
+<area shape="rect" id="node6" href="$functional__tests_8cpp.html#a2c448ffaffdff4b03c825a01dffa6f27" title="Functional test for exponencial flow." alt="" coords="108,56,295,83"/>
+<area shape="rect" id="node7" href="$functional__tests_8cpp.html#a60914db64bde71b56d69320797266c29" title="Functional test for logistic flow." alt="" coords="117,107,286,133"/>
+<area shape="rect" id="node5" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+</map>

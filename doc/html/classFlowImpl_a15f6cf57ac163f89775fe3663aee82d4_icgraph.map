@@ -1,0 +1,8 @@
+<map id="FlowImpl::connect" name="FlowImpl::connect">
+<area shape="rect" id="node1" title="Connects the flow to two systems." alt="" coords="515,35,656,61"/>
+<area shape="rect" id="node2" href="$functional__tests_8cpp.html#a60914db64bde71b56d69320797266c29" title="Functional test for the logistical flow." alt="" coords="297,5,467,32"/>
+<area shape="rect" id="node4" href="$classunit__flow.html#a392acc69e1dffb6447920dc012f6c181" title=" " alt="" coords="309,57,455,98"/>
+<area shape="rect" id="node3" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="151,5,206,32"/>
+<area shape="rect" id="node5" href="$classunit__flow.html#a0b8f9c745549fec4910bcfe64eec085f" title=" " alt="" coords="108,57,249,98"/>
+<area shape="rect" id="node6" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,64,60,91"/>
+</map>

@@ -1,0 +1,69 @@
+\hypertarget{flowImpl_8h_source}{}\doxysection{flow\+Impl.\+h}
+\label{flowImpl_8h_source}\index{src/flowImpl.h@{src/flowImpl.h}}
+\mbox{\hyperlink{flowImpl_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef FLOW\_IMPL\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define FLOW\_IMPL\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{system_8h}{system.h}}"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{flow_8h}{flow.h}}"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{22 \textcolor{keyword}{class }\mbox{\hyperlink{classFlowImpl}{FlowImpl}} : \textcolor{keyword}{public} \mbox{\hyperlink{classFlow}{Flow}}}
+\DoxyCodeLine{23 \{}
+\DoxyCodeLine{24 \textcolor{keyword}{private}:}
+\DoxyCodeLine{25     \textcolor{keywordtype}{string} name;    }
+\DoxyCodeLine{26     \mbox{\hyperlink{classSystem}{System}} *source; }
+\DoxyCodeLine{27     \mbox{\hyperlink{classSystem}{System}} *target; }
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29     \mbox{\hyperlink{classFlowImpl}{FlowImpl}}(\textcolor{keyword}{const} \mbox{\hyperlink{classFlowImpl}{FlowImpl}} \&flow);}
+\DoxyCodeLine{30     \mbox{\hyperlink{classFlowImpl}{FlowImpl}} operator=(\textcolor{keyword}{const} \mbox{\hyperlink{classFlowImpl}{FlowImpl}} \&other);}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{keyword}{public}:}
+\DoxyCodeLine{37     \mbox{\hyperlink{classFlowImpl}{FlowImpl}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string} \&name);}
+\DoxyCodeLine{41     \textcolor{keyword}{virtual} \mbox{\hyperlink{classFlowImpl_a2d91539593b336aee4a19048f8a82e8c}{\string~FlowImpl}}();}
+\DoxyCodeLine{46     \textcolor{keywordtype}{string} \mbox{\hyperlink{classFlowImpl_a0d01b25fdbbf032aa5a1618af3650702}{getName}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlowImpl_a2690ee44103e90261b91635955122a5d}{setSource}}(\mbox{\hyperlink{classSystem}{System}} *source);}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{58     \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlowImpl_a530b964da04c326f25a5a150497e4046}{setTarget}}(\mbox{\hyperlink{classSystem}{System}} *target);}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{64     \mbox{\hyperlink{classSystem}{System}} *\mbox{\hyperlink{classFlowImpl_abeacf2bdc5fef60f5cb7f355970ed015}{getSource}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{70     \mbox{\hyperlink{classSystem}{System}} *\mbox{\hyperlink{classFlowImpl_af74b936bc016b1f7177efaa68df736e7}{getTarget}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{71 }
+\DoxyCodeLine{77     \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlowImpl_a15f6cf57ac163f89775fe3663aee82d4}{connect}}(\mbox{\hyperlink{classSystem}{System}} *source, \mbox{\hyperlink{classSystem}{System}} *target);}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{82     \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlowImpl_a3e1bed0ce39ab987a642f631c18dcba9}{disconnect}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{88     \textcolor{keyword}{virtual} \textcolor{keywordtype}{float} \mbox{\hyperlink{classFlowImpl_ae3e5d9f9122252f49df0280488f762ab}{execute}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90     \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{classunit__flow}{unit\_flow}};}
+\DoxyCodeLine{91 \};}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{98 \textcolor{keyword}{class }\mbox{\hyperlink{classExponencial}{Exponencial}} : \textcolor{keyword}{public} \mbox{\hyperlink{classFlowImpl}{FlowImpl}}}
+\DoxyCodeLine{99 \{}
+\DoxyCodeLine{100 \textcolor{keyword}{public}:}
+\DoxyCodeLine{105     \mbox{\hyperlink{classExponencial_a7629d0d2635f2d01d2866a1db630f7de}{Exponencial}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string} \&name);}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{111     \textcolor{keyword}{virtual} \textcolor{keywordtype}{float} \mbox{\hyperlink{classExponencial_a20ee0b17504d10085772b0d10e1b4ff1}{execute}}();}
+\DoxyCodeLine{112 \};}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{118 \textcolor{keyword}{class }\mbox{\hyperlink{classLogistic}{Logistic}} : \textcolor{keyword}{public} \mbox{\hyperlink{classFlowImpl}{FlowImpl}}}
+\DoxyCodeLine{119 \{}
+\DoxyCodeLine{120 \textcolor{keyword}{private}:}
+\DoxyCodeLine{121     \textcolor{keywordtype}{float} pmax; }
+\DoxyCodeLine{122 }
+\DoxyCodeLine{123 \textcolor{keyword}{public}:}
+\DoxyCodeLine{129     \mbox{\hyperlink{classLogistic_a6ef1991e4d598395780b062e4953b967}{Logistic}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string} \&name, \textcolor{keywordtype}{int} pmax);}
+\DoxyCodeLine{130 }
+\DoxyCodeLine{135     \textcolor{keyword}{virtual} \textcolor{keywordtype}{float} \mbox{\hyperlink{classLogistic_af8ee332a986a4584760a52f9ee526f97}{execute}}();}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{137     \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{classunit__flow}{unit\_flow}};}
+\DoxyCodeLine{138 \};}
+\DoxyCodeLine{139 }
+\DoxyCodeLine{140 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

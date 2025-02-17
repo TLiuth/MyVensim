@@ -1,0 +1,5 @@
+<map id="Flow::getTarget" name="Flow::getTarget">
+<area shape="rect" id="node1" title="Returns the flow target system." alt="" coords="213,31,335,57"/>
+<area shape="rect" id="node2" href="$classExponencial.html#a20ee0b17504d10085772b0d10e1b4ff1" title="Executes the exponential flow." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node3" href="$classLogistic.html#af8ee332a986a4584760a52f9ee526f97" title="Execuutes the logistical Flow." alt="" coords="20,56,151,83"/>
+</map>

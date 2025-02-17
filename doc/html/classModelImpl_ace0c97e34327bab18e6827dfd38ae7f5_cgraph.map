@@ -1,0 +1,5 @@
+<map id="ModelImpl::remove" name="ModelImpl::remove">
+<area shape="rect" id="node1" title="Removes a system from the model." alt="" coords="5,31,155,57"/>
+<area shape="rect" id="node2" href="$classModelImpl.html#ae8e5421da9575e2d4df3fc403c71665f" title="Returns an iterator to the beginning of the systems." alt="" coords="203,5,393,32"/>
+<area shape="rect" id="node3" href="$classModelImpl.html#ac7081556d8ec8ff291a8ab84b0f11b50" title="Returns an iterator to the end of the systems." alt="" coords="209,56,387,83"/>
+</map>

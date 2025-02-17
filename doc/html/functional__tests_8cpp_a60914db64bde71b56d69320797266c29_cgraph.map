@@ -1,0 +1,7 @@
+<map id="logisticalFuncionalTest" name="logisticalFuncionalTest">
+<area shape="rect" id="node1" title="Functional test for the logistical flow." alt="" coords="5,81,175,108"/>
+<area shape="rect" id="node2" href="$classModel.html#afde6c25ab942f2eec7aedeaf8eec53fd" title=" " alt="" coords="246,5,341,32"/>
+<area shape="rect" id="node3" href="$classFlowImpl.html#a15f6cf57ac163f89775fe3663aee82d4" title="Connects the flow to two systems." alt="" coords="223,56,364,83"/>
+<area shape="rect" id="node4" href="$classSystem.html#adec85a8c1eea83949f2e9f389fbefb9c" title=" " alt="" coords="225,107,361,133"/>
+<area shape="rect" id="node5" href="$classModel.html#a380eb1d5dc4738078f82d624738df2c9" title=" " alt="" coords="248,157,339,184"/>
+</map>

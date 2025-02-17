@@ -1,0 +1,5 @@
+<map id="Model::remove" name="Model::remove">
+<area shape="rect" id="node1" title="Removes a flow from the model." alt="" coords="5,31,125,57"/>
+<area shape="rect" id="node2" href="$classModel.html#ad47b9e392ddccea2fefed1a80b6bfccf" title="Returns an iterator to the beginning of the flows." alt="" coords="173,5,315,32"/>
+<area shape="rect" id="node3" href="$classModel.html#a16683405e8c6297854b42e3cfc2cc5dd" title="Returns an iterator to the end of the flows." alt="" coords="180,56,308,83"/>
+</map>

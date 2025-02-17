@@ -1,0 +1,5 @@
+<map id="ModelImpl::remove" name="ModelImpl::remove">
+<area shape="rect" id="node1" title="Removes a flow from the model." alt="" coords="5,31,155,57"/>
+<area shape="rect" id="node2" href="$classModelImpl.html#afbc4410f9e9c1bccc2af8ade5fd65fda" title="Returns an iterator to the beginning of the flows." alt="" coords="203,5,373,32"/>
+<area shape="rect" id="node3" href="$classModelImpl.html#a85f8063a0dadac68a0a5d2b885579032" title="Returns an iterator to the end of the flows." alt="" coords="209,56,367,83"/>
+</map>
