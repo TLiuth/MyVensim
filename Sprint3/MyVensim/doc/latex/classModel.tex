@@ -1,0 +1,265 @@
+\hypertarget{classModel}{}\doxysection{Model Class Reference}
+\label{classModel}\index{Model@{Model}}
+
+
+Represents a \mbox{\hyperlink{classModel}{Model}} that contais systems and flows.  
+
+
+
+
+{\ttfamily \#include $<$model.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classModel_ae3b375de5f6df4faf74a95d64748e048}{Model}} ()
+\begin{DoxyCompactList}\small\item\em Constructor of the \mbox{\hyperlink{classModel}{Model}} class. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classModel_ad6ebd2062a0b823db841a0b88baac4c0}{$\sim$\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of the \mbox{\hyperlink{classModel}{Model}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classModel_a302d4ed93c6e6f9a0f728e021a91f821}{add}} (\mbox{\hyperlink{classSystem}{System}} $\ast$system)
+\begin{DoxyCompactList}\small\item\em Adds a system to the model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classModel_ab69613bde0ace81c92bbf519660ccb2c}{add}} (\mbox{\hyperlink{classFlow}{Flow}} $\ast$flow)
+\begin{DoxyCompactList}\small\item\em Adds a flow to the model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classModel_a3f49bc07b68b59f38ff79f3b66d122a1}{run}} (int iterations)
+\begin{DoxyCompactList}\small\item\em Runs the model for a number of iterations. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classModel_afe293f9ccce26bb903be5fa5a14ddb2d}{remove}} (\mbox{\hyperlink{classSystem}{System}} $\ast$system)
+\begin{DoxyCompactList}\small\item\em Removes a system from the model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classModel_a7b41df04211b99c65d5255c09ddc8e71}{remove}} (\mbox{\hyperlink{classFlow}{Flow}} $\ast$flow)
+\begin{DoxyCompactList}\small\item\em Removes a flow from the model. \end{DoxyCompactList}\item 
+decltype(systems.\+begin()) \mbox{\hyperlink{classModel_ac6bb8a5e500010fb3cdf722d89675140}{systems\+Begin}} ()
+\begin{DoxyCompactList}\small\item\em Returns an iterator to the beginning of the systems. \end{DoxyCompactList}\item 
+decltype(systems.\+end()) \mbox{\hyperlink{classModel_ad0136b519dc0e5ad83991c1a08abec11}{systems\+End}} ()
+\begin{DoxyCompactList}\small\item\em Returns an iterator to the end of the systems. \end{DoxyCompactList}\item 
+decltype(flows.\+begin()) \mbox{\hyperlink{classModel_ad47b9e392ddccea2fefed1a80b6bfccf}{flows\+Begin}} ()
+\begin{DoxyCompactList}\small\item\em Returns an iterator to the beginning of the flows. \end{DoxyCompactList}\item 
+decltype(flows.\+end()) \mbox{\hyperlink{classModel_a16683405e8c6297854b42e3cfc2cc5dd}{flows\+End}} ()
+\begin{DoxyCompactList}\small\item\em Returns an iterator to the end of the flows. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a \mbox{\hyperlink{classModel}{Model}} that contais systems and flows. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classModel_ae3b375de5f6df4faf74a95d64748e048}\label{classModel_ae3b375de5f6df4faf74a95d64748e048}} 
+\index{Model@{Model}!Model@{Model}}
+\index{Model@{Model}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{Model()}{Model()}}
+{\footnotesize\ttfamily Model\+::\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor of the \mbox{\hyperlink{classModel}{Model}} class. 
+
+\mbox{\Hypertarget{classModel_ad6ebd2062a0b823db841a0b88baac4c0}\label{classModel_ad6ebd2062a0b823db841a0b88baac4c0}} 
+\index{Model@{Model}!````~Model@{$\sim$Model}}
+\index{````~Model@{$\sim$Model}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{$\sim$Model()}{~Model()}}
+{\footnotesize\ttfamily Model\+::$\sim$\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor of the \mbox{\hyperlink{classModel}{Model}} class. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classModel_ab69613bde0ace81c92bbf519660ccb2c}\label{classModel_ab69613bde0ace81c92bbf519660ccb2c}} 
+\index{Model@{Model}!add@{add}}
+\index{add@{add}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} $\ast$}]{flow }\end{DoxyParamCaption})}
+
+
+
+Adds a flow to the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & \mbox{\hyperlink{classFlow}{Flow}} to be added. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classModel_a302d4ed93c6e6f9a0f728e021a91f821}\label{classModel_a302d4ed93c6e6f9a0f728e021a91f821}} 
+\index{Model@{Model}!add@{add}}
+\index{add@{add}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} $\ast$}]{system }\end{DoxyParamCaption})}
+
+
+
+Adds a system to the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & \mbox{\hyperlink{classSystem}{System}} to be added. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModel_a302d4ed93c6e6f9a0f728e021a91f821_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classModel_ad47b9e392ddccea2fefed1a80b6bfccf}\label{classModel_ad47b9e392ddccea2fefed1a80b6bfccf}} 
+\index{Model@{Model}!flowsBegin@{flowsBegin}}
+\index{flowsBegin@{flowsBegin}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{flowsBegin()}{flowsBegin()}}
+{\footnotesize\ttfamily decltype(Model\+::flows.\+begin()) Model\+::flows\+Begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns an iterator to the beginning of the flows. 
+
+\begin{DoxyReturn}{Returns}
+Iterator to the beginning of the flows. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModel_ad47b9e392ddccea2fefed1a80b6bfccf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classModel_a16683405e8c6297854b42e3cfc2cc5dd}\label{classModel_a16683405e8c6297854b42e3cfc2cc5dd}} 
+\index{Model@{Model}!flowsEnd@{flowsEnd}}
+\index{flowsEnd@{flowsEnd}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{flowsEnd()}{flowsEnd()}}
+{\footnotesize\ttfamily decltype(Model\+::flows.\+end()) Model\+::flows\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns an iterator to the end of the flows. 
+
+\begin{DoxyReturn}{Returns}
+Iterator to the end of the flows. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModel_a16683405e8c6297854b42e3cfc2cc5dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classModel_a7b41df04211b99c65d5255c09ddc8e71}\label{classModel_a7b41df04211b99c65d5255c09ddc8e71}} 
+\index{Model@{Model}!remove@{remove}}
+\index{remove@{remove}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Model\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} $\ast$}]{flow }\end{DoxyParamCaption})}
+
+
+
+Removes a flow from the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & \mbox{\hyperlink{classFlow}{Flow}} to be removed. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{classModel_a7b41df04211b99c65d5255c09ddc8e71_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classModel_afe293f9ccce26bb903be5fa5a14ddb2d}\label{classModel_afe293f9ccce26bb903be5fa5a14ddb2d}} 
+\index{Model@{Model}!remove@{remove}}
+\index{remove@{remove}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Model\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} $\ast$}]{system }\end{DoxyParamCaption})}
+
+
+
+Removes a system from the model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & \mbox{\hyperlink{classSystem}{System}} to be removed. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classModel_afe293f9ccce26bb903be5fa5a14ddb2d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classModel_a3f49bc07b68b59f38ff79f3b66d122a1}\label{classModel_a3f49bc07b68b59f38ff79f3b66d122a1}} 
+\index{Model@{Model}!run@{run}}
+\index{run@{run}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void Model\+::run (\begin{DoxyParamCaption}\item[{int}]{iterations }\end{DoxyParamCaption})}
+
+
+
+Runs the model for a number of iterations. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iterations} & Number of iterations. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{classModel_a3f49bc07b68b59f38ff79f3b66d122a1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModel_a3f49bc07b68b59f38ff79f3b66d122a1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classModel_ac6bb8a5e500010fb3cdf722d89675140}\label{classModel_ac6bb8a5e500010fb3cdf722d89675140}} 
+\index{Model@{Model}!systemsBegin@{systemsBegin}}
+\index{systemsBegin@{systemsBegin}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{systemsBegin()}{systemsBegin()}}
+{\footnotesize\ttfamily decltype(Model\+::systems.\+begin()) Model\+::systems\+Begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns an iterator to the beginning of the systems. 
+
+\begin{DoxyReturn}{Returns}
+Iterator to the beginning of the systems. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classModel_ac6bb8a5e500010fb3cdf722d89675140_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classModel_ad0136b519dc0e5ad83991c1a08abec11}\label{classModel_ad0136b519dc0e5ad83991c1a08abec11}} 
+\index{Model@{Model}!systemsEnd@{systemsEnd}}
+\index{systemsEnd@{systemsEnd}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{systemsEnd()}{systemsEnd()}}
+{\footnotesize\ttfamily decltype(Model\+::systems.\+end()) Model\+::systems\+End (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns an iterator to the end of the systems. 
+
+\begin{DoxyReturn}{Returns}
+Iterator to the end of the systems. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{classModel_ad0136b519dc0e5ad83991c1a08abec11_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{model_8h}{model.\+h}}\item 
+src/\mbox{\hyperlink{model_8cpp}{model.\+cpp}}\end{DoxyCompactItemize}

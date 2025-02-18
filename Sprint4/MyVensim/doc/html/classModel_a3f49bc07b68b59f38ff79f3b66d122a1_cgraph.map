@@ -1,0 +1,5 @@
+<map id="Model::run" name="Model::run">
+<area shape="rect" id="node1" title="Runs the model for a number of iterations." alt="" coords="5,31,96,57"/>
+<area shape="rect" id="node2" href="$classModel.html#ad47b9e392ddccea2fefed1a80b6bfccf" title="Returns an iterator to the beginning of the flows." alt="" coords="144,5,285,32"/>
+<area shape="rect" id="node3" href="$classModel.html#a16683405e8c6297854b42e3cfc2cc5dd" title="Returns an iterator to the end of the flows." alt="" coords="151,56,279,83"/>
+</map>
