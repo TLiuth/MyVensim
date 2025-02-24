@@ -1,0 +1,4 @@
+<map id="Model::systemsBegin" name="Model::systemsBegin">
+<area shape="rect" id="node1" title="Returns an iterator to the beginning of the systems." alt="" coords="173,5,336,32"/>
+<area shape="rect" id="node2" href="$classModel.html#afe293f9ccce26bb903be5fa5a14ddb2d" title="Removes a system from the model." alt="" coords="5,5,125,32"/>
+</map>

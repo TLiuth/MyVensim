@@ -1,0 +1,10 @@
+<map id="logisticalFuncionalTest" name="logisticalFuncionalTest">
+<area shape="rect" id="node1" title="Functional test for the logistical flow." alt="" coords="5,107,175,133"/>
+<area shape="rect" id="node2" href="$classModel.html#a1bffb1de6129340b6d07e931ef8d5697" title=" " alt="" coords="231,5,374,32"/>
+<area shape="rect" id="node4" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="227,56,378,83"/>
+<area shape="rect" id="node6" href="$classModel.html#a410062eed77ab1814f47b22e0bdfa3cf" title=" " alt="" coords="223,107,383,133"/>
+<area shape="rect" id="node7" href="$classSystem.html#adec85a8c1eea83949f2e9f389fbefb9c" title=" " alt="" coords="235,157,371,184"/>
+<area shape="rect" id="node8" href="$classModel.html#a380eb1d5dc4738078f82d624738df2c9" title=" " alt="" coords="257,208,348,235"/>
+<area shape="rect" id="node3" href="$classFlow.html#aba5716f3b5d9fe667369546b08cafee2" title=" " alt="" coords="465,5,576,32"/>
+<area shape="rect" id="node5" href="$classModelImpl.html#aedca25d981322204bdf01395241e4752" title="Model class Factory Method." alt="" coords="431,56,611,83"/>
+</map>

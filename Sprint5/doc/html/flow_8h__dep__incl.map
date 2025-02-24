@@ -1,0 +1,12 @@
+<map id="src/flow.h" name="src/flow.h">
+<area shape="rect" id="node1" title="Interface of the Flow class." alt="" coords="473,5,555,32"/>
+<area shape="rect" id="node2" href="$flowImpl_8h.html" title="Flow, Exponencial and Logistic Classes Implementation." alt="" coords="523,80,636,107"/>
+<area shape="rect" id="node9" href="$model_8h.html" title="Interface of the Model class." alt="" coords="399,80,498,107"/>
+<area shape="rect" id="node3" href="$flow_8cpp.html" title=" " alt="" coords="602,162,701,189"/>
+<area shape="rect" id="node4" href="$functional__tests_8h.html" title="Declaration of functional test functions." alt="" coords="191,155,376,196"/>
+<area shape="rect" id="node7" href="$unit__flow_8h.html" title=" " alt="" coords="725,162,876,189"/>
+<area shape="rect" id="node8" href="$unit__model_8h.html" title=" " alt="" coords="461,251,626,278"/>
+<area shape="rect" id="node5" href="$functional__tests_8cpp.html" title=" " alt="" coords="5,244,191,285"/>
+<area shape="rect" id="node6" href="$test_2functional_2main_8cpp.html" title=" " alt="" coords="215,251,395,278"/>
+<area shape="rect" id="node10" href="$modelImpl_8h.html" title="Implementation of the Model class." alt="" coords="400,162,527,189"/>
+</map>

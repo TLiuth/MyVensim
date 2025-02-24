@@ -1,0 +1,29 @@
+\hypertarget{flow_8h_source}{}\doxysection{flow.\+h}
+\label{flow_8h_source}\index{src/flow.h@{src/flow.h}}
+\mbox{\hyperlink{flow_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef FLOW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define FLOW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{system_8h}{system.h}}"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{21 \textcolor{keyword}{class }\mbox{\hyperlink{classFlow}{Flow}}}
+\DoxyCodeLine{22 \{}
+\DoxyCodeLine{23 \textcolor{keyword}{public}:}
+\DoxyCodeLine{24     \textcolor{keyword}{virtual} \mbox{\hyperlink{classFlow_a2ac297e16afe248ec4e6d1288495e1d3}{\string~Flow}}(\textcolor{keywordtype}{void}) \{\}}
+\DoxyCodeLine{25     \textcolor{keyword}{virtual} \textcolor{keywordtype}{string} \mbox{\hyperlink{classFlow_a5af4a77511f0ed5472906f73e32bb9fb}{getName}}(\textcolor{keywordtype}{void}) = 0;}
+\DoxyCodeLine{26     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlow_a42ce99a961622788ae59bb73abad3bb3}{setSource}}(\mbox{\hyperlink{classSystem}{System}} *source) = 0;}
+\DoxyCodeLine{27     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlow_a6121cf6e400af1aa8b4c9f9f2dc8e68b}{setTarget}}(\mbox{\hyperlink{classSystem}{System}} *target) = 0;}
+\DoxyCodeLine{28     \textcolor{keyword}{virtual} \mbox{\hyperlink{classSystem}{System}} *\mbox{\hyperlink{classFlow_a66a26dabf1bb0c12d75f3de7311231ef}{getSource}}() = 0;}
+\DoxyCodeLine{29     \textcolor{keyword}{virtual} \mbox{\hyperlink{classSystem}{System}} *\mbox{\hyperlink{classFlow_affcd4b9eae2c020b60fab4da38a422e9}{getTarget}}() = 0;}
+\DoxyCodeLine{30     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlow_aba5716f3b5d9fe667369546b08cafee2}{connect}}(\mbox{\hyperlink{classSystem}{System}} *source, \mbox{\hyperlink{classSystem}{System}} *target) = 0;}
+\DoxyCodeLine{31     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{classFlow_a03dd0ec0ee8c09e905e748cca94c4fdf}{disconnect}}() = 0;}
+\DoxyCodeLine{32     \textcolor{keyword}{virtual} \textcolor{keywordtype}{float} \mbox{\hyperlink{classFlow_a0da37d87c3c4846e576fc13f4241640e}{execute}}() = 0;}
+\DoxyCodeLine{33 \};}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

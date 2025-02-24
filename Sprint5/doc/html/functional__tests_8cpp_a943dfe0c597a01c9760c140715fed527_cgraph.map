@@ -1,0 +1,10 @@
+<map id="complexFuncionalTest" name="complexFuncionalTest">
+<area shape="rect" id="node1" title="Complex functional test involving multiple systems and flows." alt="" coords="5,107,172,133"/>
+<area shape="rect" id="node2" href="$classModel.html#a1bffb1de6129340b6d07e931ef8d5697" title=" " alt="" coords="229,5,371,32"/>
+<area shape="rect" id="node4" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="225,56,375,83"/>
+<area shape="rect" id="node6" href="$classModel.html#a410062eed77ab1814f47b22e0bdfa3cf" title=" " alt="" coords="220,107,380,133"/>
+<area shape="rect" id="node7" href="$classSystem.html#adec85a8c1eea83949f2e9f389fbefb9c" title=" " alt="" coords="232,157,368,184"/>
+<area shape="rect" id="node8" href="$classModel.html#a380eb1d5dc4738078f82d624738df2c9" title=" " alt="" coords="255,208,345,235"/>
+<area shape="rect" id="node3" href="$classFlow.html#aba5716f3b5d9fe667369546b08cafee2" title=" " alt="" coords="463,5,573,32"/>
+<area shape="rect" id="node5" href="$classModelImpl.html#aedca25d981322204bdf01395241e4752" title="Model class Factory Method." alt="" coords="428,56,608,83"/>
+</map>

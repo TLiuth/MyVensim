@@ -1,0 +1,6 @@
+<map id="Flow" name="Flow">
+<area shape="rect" id="node1" title="Interface of the class representing a Flow." alt="" coords="78,5,195,200"/>
+<area shape="rect" id="node2" href="$classFlowImpl.html" title="Class representing a Flow." alt="" coords="77,248,196,457"/>
+<area shape="rect" id="node3" href="$classExponencial.html" title="Class that represents an exponential Flow." alt="" coords="5,505,132,597"/>
+<area shape="rect" id="node4" href="$classLogistic.html" title="Class that represents a logistic Flow." alt="" coords="157,505,255,597"/>
+</map>

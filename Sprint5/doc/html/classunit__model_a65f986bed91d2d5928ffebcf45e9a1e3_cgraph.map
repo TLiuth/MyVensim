@@ -1,0 +1,5 @@
+<map id="unit_model::unit_model_iterator_system" name="unit_model::unit_model_iterator_system">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,181,65"/>
+<area shape="rect" id="node2" href="$classModelImpl.html#ae8e5421da9575e2d4df3fc403c71665f" title="Returns an iterator to the beginning of the systems." alt="" coords="229,5,420,32"/>
+<area shape="rect" id="node3" href="$classModelImpl.html#ac7081556d8ec8ff291a8ab84b0f11b50" title="Returns an iterator to the end of the systems." alt="" coords="235,56,414,83"/>
+</map>
